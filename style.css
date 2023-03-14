@@ -1,0 +1,214 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.cointainer {
+    height:auto;
+}
+
+.cointainer1 {
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    border: 2px;
+    background-color: #dadbf1;
+}
+
+.cointainer2 {
+    /* border: 2px solid black; */
+    display: flex;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.footer {
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cointainer3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.footer-col {
+    /* border: 2px solid red; */
+    width: 20%;
+    text-align: center;
+}
+
+
+.item {
+    display: inline;
+    /* border: 2px solid black; */
+    width: 550px;
+    height: 190px;
+}
+
+.subitem {
+    display: inline-block;
+    width: 400px;
+}
+
+.subitem h3,
+.itembody {
+    position: relative;
+    left: 30px;
+}
+
+h2 {
+    position: relative;
+    font-size: 60px;
+    margin-top: 0px;
+    top: 100px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.list {
+    margin-bottom: 0px;
+}
+
+#list1 {
+    float: left;
+
+}
+
+#list2,
+#list3 {
+    float: right;
+}
+
+.navbar {
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+
+    list-style: none;
+    margin: 10px 30px;
+    font-size: 30px;
+    padding: 2px;
+}
+
+.navbar input {
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#btn1 {
+    background-color: #4C5FD5;
+}
+
+#btn2 {
+    background-color: black;
+}
+
+#btn2:hover {
+    color: gray;
+}
+
+#btn1:hover {
+    color: gray;
+}
+
+input[type="text"] {
+    position: relative;
+    height: 45px;
+    width: 500px;
+    top: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+div img {
+    height: 100px;
+    width: 100px;
+}
+
+h4,
+h5 {
+    color: #fff;
+}
+
+p,
+a {
+    color: black;
+}
+
+#home {
+    color: #fff;
+}
+
+#home:hover {
+    color: gray;
+}
+
+a:hover {
+    color: gray;
+}
+
+.footer{
+    position: sticky;
+}
+.foot1,
+.foot2,
+.foot3 {
+    color: #fff;
+}
+
+.foot1 {
+    position: relative;
+    right: 20px;
+}
+
+.foot3 {
+    position: relative;
+    top: 70px;
+}
+
+h5 {
+    position: relative;
+    right: 15px;
+}
+
+#contlist {
+    margin: 0px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+
+}
+
